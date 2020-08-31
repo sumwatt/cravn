@@ -3,7 +3,7 @@ require "./converters.cr"
 
 
 module Cravn
-    class Series
+    class SeriesAdj
         include JSON::Serializable
         include StringToInt
         include StringToFloat
@@ -22,5 +22,11 @@ module Cravn
 
         @[JSON::Field(key: "6. volume", converter: StringToInt)]
         property volume : Int32
+
+        @[JSON::Field(key: "7. dividend amount", converter: StringToFloat)]
+        property dividend : Float64
+
+        @[JSON::Field(key: "8. split coefficient", converter: StringToFloat)]
+        property split_coefficient : Float64
     end
 end
