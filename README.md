@@ -1,6 +1,6 @@
 # cravn
 
-API wrapper for Alpha Vantage APIs
+A scratch pad for a crystal project to test out some ideas. I'm testing out JSON::Serialization
 
 ## Installation
 
