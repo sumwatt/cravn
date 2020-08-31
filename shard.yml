@@ -1,0 +1,9 @@
+name: cravn
+version: 0.1.0
+
+authors:
+  - colson <colson@cogfactory.net>
+
+crystal: 0.35.1
+
+license: MIT
